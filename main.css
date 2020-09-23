@@ -1,0 +1,152 @@
+/* main spacing across sections */
+.section-whitespace {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+/* main heading styling */
+.vr-heading {
+    padding-top: 100px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: #d4ad83;
+}
+
+/* jumbotron styling */
+.jumbotron {
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+}
+
+/* content styling */
+.content {
+    padding-top: 25px;
+}
+
+/* navbar styling */
+.navbar {
+    z-index: 16;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+
+/* carousel styling*/
+.carousel-item {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* photo card styling */
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    width: 100%;
+    height: 100px;
+}
+
+.row {
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-custom {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+/* map styling*/
+.map-container {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+}
+
+/*footer styling*/
+.about-span {
+    white-space: pre;
+}
+
+#button-box {
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.btn-abnb {
+    color: coral;
+    background-color: transparent;
+    border-color: coral;
+}
+
+.btn-abnb:hover {
+    color: white;
+    background-color: coral;
+    border-color: coral;
+}
+
+.btn-vrbo {
+    color: #0e214b;
+    background-color: transparent;
+    border-color: #0e214b;
+}
+
+.btn-vrbo:hover {
+    color: white;
+    background-color: #0e214b;
+    border-color: #0e214b;
+}
+
+.btn-ha {
+    color: #2A6EBB;
+    background-color: transparent;
+    border-color: #2A6EBB;
+}
+
+.btn-ha:hover {
+    color: white;
+    background-color: #2A6EBB;
+    border-color: #2A6EBB;
+}
